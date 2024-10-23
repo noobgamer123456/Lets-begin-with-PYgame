@@ -11,7 +11,7 @@ pygame.display.set_caption('Image')
 DEFAULT_IMAGE_SIZE =(200,200)
 DEFAULT_IMAGE_POSITION = (150,150)
 
-image = pygame.image.load('image.jpg')
+image = pygame.image.load('image2.jpg')
 image = pygame.transform.scale(image,DEFAULT_IMAGE_SIZE)
 
 while True:
